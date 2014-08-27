@@ -67,12 +67,12 @@
 }
 
 - (BOOL) textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string{
-//    if ([string isEqualToString:@"t"]) {
-//        return NO;
-//    }
-//    else{
-//        return YES;
-//    }
+    if ([string isEqualToString:@"t"]) {
+        return NO;
+    }
+    else{
+        return YES;
+    }
 }
 
 - (BOOL) textFieldShouldReturn:(UITextField *)textField{
